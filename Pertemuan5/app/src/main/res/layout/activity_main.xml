@@ -1,18 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:stretchColumns="1"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <TableRow
+        android:background="#22ff">
+        <TextView
+            android:layout_column="1"
+            android:text="Open..."
+            android:padding="3dip"/>
+        <TextView
+            android:text="CTRL-O"
+            android:gravity="right"
+            android:padding="3dip"/>
+    </TableRow>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TableRow android:background="#22ff">
+        <TextView
+            android:layout_column="1"
+            android:text="Save..."
+            android:padding="3dip"/>
+        <TextView
+            android:text="CTRL-S"
+            android:layout_gravity="right"
+            android:padding="3dip"/>
+    </TableRow>
+
+    <TableRow android:background="#22ff">
+        <TextView
+            android:layout_column="1"
+            android:text="Save As..."
+            android:padding="3dip"/>
+        <TextView
+            android:text="CTRL-Shift-S"
+            android:layout_gravity="right"
+            android:padding="3dip"/>
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+
+    <TableRow android:background="#ffff00">
+        <TextView
+            android:text="X"
+            android:padding="3dip"/>
+        <TextView
+            android:text="Import..."
+            android:padding="3dip"/>
+    </TableRow>
+
+    <TableRow android:background="#ffff00">
+        <TextView
+            android:text="X"
+            android:padding="3dip"/>
+        <TextView
+            android:text="Export..."
+            android:padding="3dip"/>
+        <TextView
+            android:text="CTRL-E"
+            android:gravity="right"
+            android:padding="3dip"/>
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+
+    <TableRow android:background="#aaf">
+        <TextView
+            android:layout_column="1"
+            android:text="Quit"
+            android:padding="3dip"/>
+    </TableRow>
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="80dp"
+            android:layout_height="28dp"
+            android:background="#7CFC00"
+            android:text="Frame 1"
+            tools:layout_editor_absoluteX="31dp"
+            android:layout_marginRight="5dp"
+            tools:layout_editor_absoluteY="493dp" />
+
+        <Button
+            android:id="@+id/next2"
+            android:layout_height="28dp"
+            android:layout_width="80dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Frame 2"
+            android:textColor="#fff"
+            android:layout_marginLeft="2dp"
+            tools:layout_editor_absoluteX="125dp"
+            tools:layout_editor_absoluteY="493dp" />
+    </LinearLayout>
+</TableLayout>

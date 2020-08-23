@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <Button
+        android:id="@+id/grid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Grid Layout"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Constraint Layout"/>
+    <Button
+        android:id="@+id/latihan_intent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Latihan Intent 1"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/intent_main"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Main Activity Intent"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

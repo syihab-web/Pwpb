@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pertemuan7</string>
+    <string name="title_activity_dashboard_fragment">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="grand_sevant">Gilgamesh</string>
+    <string name="class_skill">Golden Rule, Charisma</string>
+    <string name="armaments">Treasure</string>
+    <string name="detail">Gilgamesh merupakan raja dari dinasti uruk yang memerintah tahun 2600SM. Dia dikenal dengan nama King of Heroes dan memerintah hampir di seluruh daratan Mesopotamia</string>
+    <string name="title_profile">Profile</string>
+</resources>

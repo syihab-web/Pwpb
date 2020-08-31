@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FirebaseLatihan</string>
+    <array name="location">
+        <item>Ufotable</item>
+        <item>A1-Pictures</item>
+        <item>Kyoto Animation</item>
+    </array>
+</resources>

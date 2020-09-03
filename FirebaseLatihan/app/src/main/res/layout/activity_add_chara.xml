@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.example.firebaselatihan.AddCharaActivity">
+
+<TextView
+    android:id="@+id/textViewAnimeName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:gravity="center"
+    android:textSize="27sp"/>
+
+<EditText
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:hint="Character Name"
+    android:id="@+id/characters"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating"
+        android:max="10"/>
+
+<Button
+    android:layout_height="wrap_content"
+    android:layout_width="150dp"
+    android:id="@+id/submitChara"
+    android:text="Submit"
+    android:padding="16dp"
+    android:layout_margin="9dp" android:layout_gravity="center"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Characters List"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+
+<ListView
+    android:id="@+id/listViewChara"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"/>
+
+</LinearLayout>

@@ -4,45 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
     <TextView
+        android:id="@+id/textViewName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="15dp"
-        android:text="Enter an Anime Name"
-        android:gravity="center"
-        android:textSize="27sp"/>
+        android:padding="16dp"
+        android:text="Name"
+        android:gravity="left"
+        android:textSize="15sp"/>
 
     <EditText
-        android:layout_width="400dp"
+        android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:hint="Anime Name"
-        android:id="@+id/editText"
+        android:id="@+id/editTextName"
         android:padding="16dp"
         android:layout_gravity="center"
         />
 
     <Spinner
-        android:id="@+id/location"
+        android:id="@+id/spinnerStudio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:entries="@array/location"
         android:padding="15dp"/>
-
     <Button
         android:layout_height="wrap_content"
         android:layout_width="150dp"
-        android:id="@+id/submit"
+        android:id="@+id/btnupdate"
         android:text="Submit"
         android:padding="16dp"
         android:layout_margin="9dp"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:id="@+id/btndelete"
+        android:text="Delete"
+        android:padding="16dp"
+        android:layout_margin="9dp"/>
 
-    <ListView
-        android:id="@+id/listViewAnime"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="16dp"/>
 
 </LinearLayout>

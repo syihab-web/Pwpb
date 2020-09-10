@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Latihan Input dan List</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="confirm_email">Confirm Email</string>
+    <string name="enter_an_email">Enter an Email</string>
+</resources>
